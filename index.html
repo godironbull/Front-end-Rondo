@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome que aparece na abado navegador</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">Aqui e o nome da Pagina</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="text-circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            
+            <div class="item active">
+                <div class="product-img">
+                    <img src="aqui vai a imagem que voce escolheu, voce tem que copiar o caminho relativo" alt="nome do produto 1">
+                </div>
+                <div class="content">
+                    <p class="product-tag">titulo - 1</p>
+                    <h2 class="product-name">nome do produto</h2>
+                    <p class="description">
+                        breve descrição do produto, destacando suas principais características e benefícios para o usuário.
+                    </p>
+                    <button class="btn">Botão</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="aqui vai a imagem que voce escolheu, voce tem que copiar o caminho relativo" alt="nome do produto 2">
+                </div>
+                <div class="content">
+                    <p class="product-tag">titulo - 2</p>
+                    <h2 class="product-name">nome do produto</h2>
+                    <p class="description">
+                        breve descrição do produto, destacando suas principais características e benefícios para o usuário.
+                    </p>
+                    <button class="btn">Botão</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="aqui vai a imagem que voce escolheu, voce tem que copiar o caminho relativo" alt="nome do produto 3">
+                </div>
+                <div class="content">
+                    <p class="product-tag">titulo - 3</p>
+                    <h2 class="product-name">nome do produto</h2>
+                    <p class="description">
+                        breve descrição do produto, destacando suas principais características e benefícios para o usuário.
+                    </p>
+                    <button class="btn">Botão</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+            </button>
+            <button id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
